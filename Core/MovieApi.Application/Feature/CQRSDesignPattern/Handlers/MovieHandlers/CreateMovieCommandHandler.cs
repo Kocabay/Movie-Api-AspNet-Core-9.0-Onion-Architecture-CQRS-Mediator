@@ -26,6 +26,7 @@ namespace MovieApi.Application.Feature.CQRSDesignPattern.Handlers.MovieHandlers
                 Title = command.Title
 
             });
+            await _context.SaveChangesAsync();
         }
     }
 }

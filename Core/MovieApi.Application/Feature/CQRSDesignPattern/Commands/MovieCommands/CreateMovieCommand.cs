@@ -2,7 +2,6 @@
 {
     public class CreateMovieCommand
     {
-        public int MovieId { get; set; }
         public string Title { get; set; }
         public string CoverImageUrl { get; set; }
         public decimal Rating { get; set; }
